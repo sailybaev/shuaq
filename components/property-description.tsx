@@ -26,8 +26,7 @@ export function PropertyDescription() {
             <div>
               <h3 className="font-semibold mb-1">Расположение</h3>
               <p className="text-gray-700 text-sm md:text-base">
-                г. Астана, район Сарыарка, пересечение ул. Ш.Айтматова и ул.
-                №344
+                г. Астана, ул. Шаймерден Косшыгулулы, 27/1
               </p>
             </div>
           </div>

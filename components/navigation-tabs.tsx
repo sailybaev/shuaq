@@ -97,7 +97,7 @@ export function NavigationTabs() {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden sm:flex overflow-x-auto scrollbar-hide py-4">
+        <nav className="hidden sm:flex overflow-x-auto scrollbar-hide py-4 justify-center">
           <div className="flex space-x-4 md:space-x-8 lg:space-x-12 min-w-max">
             <a
               href="#advantages"

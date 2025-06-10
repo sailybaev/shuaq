@@ -38,7 +38,7 @@ export function HeroSection() {
                 className="bg-white/10 backdrop-blur-sm text-white border-none py-2 md:py-3 px-4 md:px-6 w-fit rounded-full"
               >
                 <MapPin className="h-4 w-4 mr-2" />
-                <span className="font-medium text-sm md:text-base">Ш.Айтматова и ул. №344.</span>
+                <span className="font-medium text-sm md:text-base">ул. Шаймерден Косшыгулулы, 27/1</span>
               </Badge>
             </div>
 
