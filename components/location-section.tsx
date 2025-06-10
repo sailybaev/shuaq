@@ -63,16 +63,15 @@ export function LocationSection() {
     <section id="location" className="py-16 scroll-mt-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Расположение</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
+        <div className="flex flex-col gap-8">
+          <div className="max-w-3xl mx-auto text-center">
             <h3 className="text-2xl font-semibold mb-4">ЖК SHYRAQ находится возле набережной реки Есиль</h3>
             {/* <p className="text-lg mb-4">Жилой комплекс SHYRAQ расположен в престижном районе столицы</p>
             <p className='text-lg mb-4'>Расположение в развивающемся районе Сарыарка с удобной транспортной доступностью</p>
             <p className='text-lg mb-4'>Участок в специальной экономической зоне — стратегическая значимость и инвестиционная привлекательность.</p>
-            <p className="text-lg">Благодаря удобному выезду на ключевые городские магистрали, Вы легко сможете передвигаться по городу, экономя время на дороге и оставаясь мобильными каждый день.</p>
-           */}
+            <p className="text-lg">Благодаря удобному выезду на ключевые городские магистрали, Вы легко сможете передвигаться по городу, экономя время на дороге и оставаясь мобильными каждый день.</p> */}
           </div>
-          <div ref={mapRef} id="map-container" className="h-96 rounded-lg">
+          <div ref={mapRef} id="map-container" className="h-[500px] md:h-[600px] w-full rounded-lg">
             {/* 2GIS Map will be rendered here */}
           </div>
         </div>
