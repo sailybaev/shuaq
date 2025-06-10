@@ -15,7 +15,7 @@ export function AdvantagesGrid() {
             objectFit="cover"
             className="rounded-lg"
           />
-          <div className="absolute bottom-4 left-4 text-white p-2 bg-black bg-opacity-50 rounded-md">
+          <div className="absolute bottom-4 left-4 text-white p-2 bg-black bg-opacity-50 rounded-md text-center">
             <p className="text-lg font-bold">9 этажей</p>
             <p className="text-lg font-bold">298 квартир</p>
           </div>
@@ -43,7 +43,7 @@ export function AdvantagesGrid() {
             objectFit="cover"
             className="rounded-lg"
           />
-          <div className="absolute bottom-4 left-4 text-white p-2 bg-black bg-opacity-50 rounded-md">
+          <div className="absolute bottom-4 left-4 text-white p-2 bg-black bg-opacity-50 rounded-md text-center">
             <p className="text-lg font-bold">от 37,19 до 84,88 м2</p>
           </div>
         </div>
@@ -56,7 +56,7 @@ export function AdvantagesGrid() {
             objectFit="cover"
             className="rounded-lg"
           />
-          <div className="absolute bottom-4 left-4 text-white p-2 bg-black bg-opacity-50 rounded-md">
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white p-2 bg-black bg-opacity-50 rounded-md text-center px-6">
             <p className="text-lg font-bold">Закрытый двор</p>
           </div>
         </div>
