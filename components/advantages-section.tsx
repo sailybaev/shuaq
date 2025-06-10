@@ -20,7 +20,7 @@ export function AdvantagesSection() {
             <CardContent className="p-0 h-full">
               <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/inf.jpeg"
                   alt="Инфраструктура"
                   fill
                   className="object-cover"
