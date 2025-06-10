@@ -6,15 +6,15 @@ import { FeatureCard } from "@/components/feature-card"
 export function DesignerLobby() {
   const lobbyImages = [
     {
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/lobby3.png",
       alt: "Дизайнерский холл жилого комплекса Shyraq",
     },
     {
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/lobby2.png",
       alt: "Интерьер холла Shyraq",
     },
     {
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/lobby1.png",
       alt: "Лобби жилого комплекса Shyraq",
     },
   ]

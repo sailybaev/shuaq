@@ -18,9 +18,9 @@ export default function PropertyListing() {
       <NavigationTabs />
       <PropertyDescription />
       <AdvantagesSection />
-      <InfrastructureSection />
+      {/* <InfrastructureSection /> */}
 
-      <FullWidthSlider
+      {/* <FullWidthSlider
         photos={[
           {
             src: "/images/photo1.jpg",
@@ -34,9 +34,9 @@ export default function PropertyListing() {
         aspectRatio="video"
         autoPlay={true}
         interval={5000}
-      />
+      /> */}
       <LocationSection />
-      <LayoutsSection />
+      {/* <LayoutsSection /> */}
       <FacadeSection />
       <DesignerLobby />
       <FullWidthSlider

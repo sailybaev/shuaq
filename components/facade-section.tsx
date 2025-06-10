@@ -13,8 +13,8 @@ export function FacadeSection() {
             <CardContent className="p-0">
             <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Крытый паркинг"
+                  src="/min.jpeg"
+                  alt=""
                   fill
                   className="object-cover"
                 />
@@ -26,8 +26,8 @@ export function FacadeSection() {
             <CardContent className="p-0">
               <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Крытый паркинг"
+                  src="/jk2.jpeg"
+                  alt=""
                   fill
                   className="object-cover"
                 />
@@ -39,8 +39,8 @@ export function FacadeSection() {
             <CardContent className="p-0">
             <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Крытый паркинг"
+                  src="/jk.jpeg"
+                  alt=""
                   fill
                   className="object-cover"
                 />
@@ -52,8 +52,8 @@ export function FacadeSection() {
             <CardContent className="p-0">
             <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Крытый паркинг"
+                  src="/qqq.jpeg"
+                  alt=""
                   fill
                   className="object-cover"
                 />

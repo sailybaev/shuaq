@@ -29,19 +29,31 @@ export function ImageSlider({ images, className }: ImageSliderProps) {
   }
 
   return (
-    <div className={cn("relative w-full h-full rounded-3xl overflow-hidden", className)}>
-      <div className="relative w-full h-full">
-        <Image
-          src={images[currentIndex].src || "/placeholder.svg"}
-          alt={images[currentIndex].alt}
-          fill
-          className="object-cover transition-opacity duration-500"
-        />
+    <div className={cn("relative w-full h-full overflow-hidden rounded-3xl", className)}>
+      {/* Слайдер контейнер */}
+      <div
+        className="flex transition-transform duration-500 ease-in-out h-full"
+        style={{
+          transform: `translateX(-${currentIndex * 100}%)`,
+        }}
+      >
+        {images.map((image, index) => (
+          <div key={index} className="relative w-full h-full flex-shrink-0">
+            <Image
+              src={image.src || "/placeholder.svg"}
+              alt={image.alt}
+              fill
+              sizes="100vw"
+              className="object-cover"
+            />
+          </div>
+        ))}
       </div>
 
+      {/* Кнопки */}
       <button
         onClick={goToPrevious}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 shadow-md z-10"
+        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 shadow-md z-20"
         aria-label="Предыдущее изображение"
       >
         <ChevronLeft className="h-6 w-6 text-gray-800" />
@@ -49,7 +61,7 @@ export function ImageSlider({ images, className }: ImageSliderProps) {
 
       <button
         onClick={goToNext}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 shadow-md z-10"
+        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 shadow-md z-20"
         aria-label="Следующее изображение"
       >
         <ChevronRight className="h-6 w-6 text-gray-800" />
