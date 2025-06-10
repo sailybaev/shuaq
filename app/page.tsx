@@ -10,6 +10,7 @@ import { LayoutsSection } from "@/components/layouts-section";
 import { FacadeSection } from "@/components/facade-section";
 import { CourtyardSection } from "@/components/courtyard-section";
 import { FullWidthSlider } from "@/components/full-width-slider";
+import { AdvantagesGrid } from "@/components/advantaes-grid";
 
 export default function PropertyListing() {
   return (
@@ -17,7 +18,7 @@ export default function PropertyListing() {
       <HeroSection />
       <NavigationTabs />
       <PropertyDescription />
-      <AdvantagesSection />
+      <AdvantagesGrid/>
       {/* <InfrastructureSection /> */}
 
       {/* <FullWidthSlider
