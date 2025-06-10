@@ -26,7 +26,7 @@ export function FacadeSection() {
             <CardContent className="p-0">
               <div className="relative h-48">
                 <Image
-                  src="/jk2.jpeg"
+                  src="/morn.jpeg"
                   alt=""
                   fill
                   className="object-cover"

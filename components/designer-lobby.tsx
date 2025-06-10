@@ -1,4 +1,4 @@
-import { Camera, Scan, CableCarIcon as Elevator, Paintbrush } from "lucide-react"
+import { Camera, Scan, MoveVertical as MV, Paintbrush } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { ImageSlider } from "@/components/image-slider"
 import { FeatureCard } from "@/components/feature-card"
@@ -43,8 +43,8 @@ export function DesignerLobby() {
             <CardContent className="p-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <FeatureCard icon={Camera} title="Видеонаблюдение" />
-                <FeatureCard icon={Scan} title="Face ID и SMART замки" />
-                <FeatureCard icon={Elevator} title="Скоростные лифты" />
+                <FeatureCard icon={Scan} title="Face ID" />
+                <FeatureCard icon={MV} title="Потолки 3 метра" />
                 <FeatureCard icon={Paintbrush} title="Авторский дизайн" />
               </div>
             </CardContent>

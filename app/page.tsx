@@ -39,7 +39,7 @@ export default function PropertyListing() {
       {/* <LayoutsSection /> */}
       <FacadeSection />
       <DesignerLobby />
-      <FullWidthSlider
+      {/* <FullWidthSlider
         photos={[
           {
             src: "/images/photo1.jpg",
@@ -53,8 +53,8 @@ export default function PropertyListing() {
         aspectRatio="video"
         autoPlay={true}
         interval={5000}
-      />
-      <CourtyardSection />
+      /> */}
+      {/* <CourtyardSection />
       <FullWidthSlider
         photos={[
           {
@@ -69,7 +69,7 @@ export default function PropertyListing() {
         aspectRatio="video"
         autoPlay={true}
         interval={5000}
-      />
+      /> */}
       <ContactForm />
     </main>
   );
