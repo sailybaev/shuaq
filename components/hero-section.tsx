@@ -43,18 +43,18 @@ export function HeroSection() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
-              <a href="#contact-form" className="w-full sm:w-auto">
-                <Button className="bg-red-600 hover:bg-red-700 text-white w-full py-3 md:py-4 px-6 md:px-8 rounded-full text-base md:text-lg font-semibold">
+              <a href="#contact-form" className="w-full sm:w-auto min-w-[280px] md:min-w-[400px]">
+                <Button className="bg-red-600 hover:bg-red-700 text-white w-full py-3 md:py-4 px-8 md:px-16 rounded-full text-base md:text-lg font-semibold min-w-[280px] md:min-w-[400px]">
                   Получить консультацию
                 </Button>
               </a>
-              <Button
+              {/* <Button
                 variant="outline"
                 className="bg-white text-gray-800 hover:bg-gray-100 w-full py-3 md:py-4 px-6 md:px-8 rounded-full text-base md:text-lg font-semibold"
               > 
                 Скачать буклет
                 <Download className="ml-2 h-4 w-4 md:h-5 md:w-5" />
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
