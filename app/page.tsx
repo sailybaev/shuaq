@@ -11,6 +11,7 @@ import { FacadeSection } from "@/components/facade-section";
 import { CourtyardSection } from "@/components/courtyard-section";
 import { FullWidthSlider } from "@/components/full-width-slider";
 import { AdvantagesGrid } from "@/components/advantaes-grid";
+import {PhoneNumberSection} from "@/components/phoneNumber"
 
 export default function PropertyListing() {
   return (
@@ -72,6 +73,9 @@ export default function PropertyListing() {
         interval={5000}
       /> */}
       <ContactForm />
+
+      <PhoneNumberSection />
+
     </main>
   );
 }

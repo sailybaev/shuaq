@@ -3,7 +3,6 @@ import { MapPin, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"
-
 export function HeroSection() {
   return (
     <div className="container mx-auto px-4 py-4 md:py-8">
